@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries>
+
+	<table>test</table>
+
+	<selectQueries>
+		<select>
+			<id></id>
+			<columns>
+				<column></column>
+				<column></column>
+			</columns>
+			<!-- <table></table> -->
+			<where></where>
+			<groupBy></groupBy>
+			<orderBy></orderBy>
+			<limit></limit>
+		</select>
+	</selectQueries>
+
+	<insertQueries>
+		<insert>
+			<id></id>
+			<!-- <table></table> -->
+			<values>
+				<column></column>
+				<column></column>
+			</values>
+		</insert>
+	</insertQueries>
+
+	<updateQueries>
+		<update>
+			<id></id>
+			<!-- <table></table> -->
+			<values>
+				<column></column>
+			</values>
+			<where></where>
+		</update>
+	</updateQueries>
+
+	<deleteQueries>
+		<delete>
+			<id></id>
+			<!-- <table></table> -->
+			<where></where>
+		</delete>
+	</deleteQueries>
+
+</queries>

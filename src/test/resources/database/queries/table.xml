@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries>
+
+	<table>table2</table>
+
+	<selectQueries>
+		<select>
+			<id>selectCheck1</id>
+			<columns>
+				<column>name</column>
+				<column>address</column>
+			</columns>
+			<from>
+				<table>
+					<name>student</name>
+					<alias>s</alias>
+				</table>
+				<table>
+					<name>student</name>
+					<alias>s</alias>
+				</table>
+			</from>
+			<where>
+				name = { name } 
+				AND address = {address}
+				AND name = {name}
+				and city = {city}
+			</where>
+			<groupBy>name</groupBy>
+			<orderBy>student_id</orderBy>
+			<limit>1</limit>
+		</select>
+	</selectQueries>
+
+	<insertQueries>
+		<insert>
+			<id>insertCheck1</id>
+			<!-- <table></table> -->
+			<values>
+				<column>value1</column>
+				<column>value2</column>
+			</values>
+		</insert>
+	</insertQueries>
+
+	<updateQueries>
+		<update>
+			<id>updateCheck1</id>
+			<!-- <table></table> -->
+			<values>
+				<column>h</column>
+			</values>
+			<where>w</where>
+		</update>
+	</updateQueries>
+
+	<deleteQueries>
+		<delete>
+			<id>deleteCheck1</id>
+			<!-- <table></table> -->
+			<where>delete1 = ?</where>
+		</delete>
+	</deleteQueries>
+
+</queries>

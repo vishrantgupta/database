@@ -1,0 +1,17 @@
+/Columns.class
+/Database.class
+/DatabaseInitializationException.class
+/DatabaseManager$SingletonHelper.class
+/DatabaseManager.class
+/Delete.class
+/From$Table.class
+/From.class
+/Insert.class
+/Query.class
+/Select.class
+/TableQueries$DeleteQueries.class
+/TableQueries$InsertQueries.class
+/TableQueries$SelectQueries.class
+/TableQueries$UpdateQueries.class
+/TableQueries.class
+/Update.class

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseManagement>
+
+	<datasource>
+		<jndi>test</jndi>
+	</datasource>
+
+	<database>
+		<url>http://www.google.com</url>
+		<name>mysql</name>
+		<username>test</username>
+		<password>test</password>
+	</database>
+
+	<connection>
+		<connectionPool>1</connectionPool>
+	</connection>
+
+</databaseManagement>
