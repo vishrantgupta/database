@@ -1,1 +1,1 @@
-# Maintain database in XML form
+# Maintain SQL queries in XML form
